@@ -14,7 +14,7 @@ app.include_router(text_router)
 app.add_exception_handler(Exception, generic_exception_handler)
 
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def root(request: Request):
     return {
         "message": "Welcome to the API. Visit the link below to try it out.",
