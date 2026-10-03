@@ -140,8 +140,8 @@ uvicorn app:app --reload
 
 Then open `http://127.0.0.1:8000/docs` to test all endpoints interactively.
 
-Live, once deployed:
-Open `<live-link>/docs` to test all endpoints interactively, no local setup needed.
+Live Link:
+Open `https://llm-cost-optimisation.onrender.com/docs` to test all endpoints interactively, no local setup needed.
 
 ## Sample Request (Single Task)
 ```json
